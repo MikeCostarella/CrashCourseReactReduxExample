@@ -1,4 +1,11 @@
-# React/Redux Crash Course
+# React/Redux Crash Course  (stopped at 53:51 of 1:09:22)
+* https://www.youtube.com/watch?v=93p3LxR9xfM
+
+* Redux
+  * A predictible state container for JavaScript apps.
+  * https://redux.js.org/
+  * Github: https://github.com/reduxjs/redux
+  * Github Docs: https://github.com/reduxjs/redux/tree/master/docs
 
 ## Nuget Packages Suggested
 
@@ -15,6 +22,11 @@
 ## Terminology
 
 * Store
+  * holds the whole state tree of your application.
+  * the only to change the state inside it is to dispatch and action on it.
+  * createStore(reducer, [preloadedState], [enhancer])
+    * initially create store with a root reducer
+* Reducer
 * View
 * Action Creator
 * Reducer
@@ -28,6 +40,28 @@
 * PostForm Component
   * adds a post
 
+## Installing Redux
+
+* redux
+  * independent state management library
+  * can be used with a number of javascript development frameworks
+* react-redux
+  * library that binds reduct to react
+* redux-thunk
+  * middleware for redux
+  * allows asynchronous calls from action creators
+
+* npm i redux react-redux redux-thunk
+
+* install a provider
+  * a react component that is the glue for react and redux
+
+# Redux DevTools
+
+* Chrome redux extension
+  * https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
+  * need to setup app to interface with redux dev tools
+  * add compose to store.js file
 
 # React Generated Info
 
