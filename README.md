@@ -1,24 +1,4 @@
-React/Redux Crash Course
-
-Why Redux?
-
-Manage the application state of an application with many components.
-
-Terminology
-
-Store
-View
-Action Creator
-Reducer
-
-# Sample Posting React App
-
-Components:
-
-* Post Component
-  * fetches a list of posts from JSONPlaceholder fake service
-* Form Component
-  * adds a post
+# React/Redux Crash Course
 
 ## Nuget Packages Suggested
 
@@ -28,6 +8,28 @@ Components:
   * PropTypes
   * GraphQL
   * 
+## Why Redux?
+
+* Manage the application state of an application with many components.
+
+## Terminology
+
+* Store
+* View
+* Action Creator
+* Reducer
+
+# Sample Posting React App
+
+## Components:
+
+* Post Component
+  * fetches a list of posts from JSONPlaceholder fake service
+* PostForm Component
+  * adds a post
+
+
+# React Generated Info
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
