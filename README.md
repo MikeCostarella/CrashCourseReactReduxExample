@@ -1,4 +1,4 @@
-# React/Redux Crash Course  (stopped at 53:51 of 1:09:22)
+# React/Redux Crash Course
 * https://www.youtube.com/watch?v=93p3LxR9xfM
 
 * Redux
